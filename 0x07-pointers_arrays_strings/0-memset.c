@@ -13,18 +13,14 @@
 char *_memset(char *s, char b, unsigned int n)
 {
 
- 
-strcpy(s, "b");
 
- b = 'b';
-
-for ( n=0 ; n<10 ; n++)
+for (int i=0 ; n>0 ; i++)
 {
-	s[n]=b;
-
+	s[i]=b;
+n--;
 }
 
-return(0);
+return(s);
 
 
 }
